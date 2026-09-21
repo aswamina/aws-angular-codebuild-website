@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: dist/my-angular-project
     destination: /var/www/codebuild-angular-project
 permissions:
   - object: /var/www/codebuild-angular-project
